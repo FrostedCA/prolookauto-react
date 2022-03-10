@@ -4,7 +4,7 @@ import logo from '../../img/prolookautologo.jpg'
 
 export default function Navbar() {
   return (
-    <div className='app_navbar-div'>
+    <div id='navbar' className='app_navbar-div'>
         <div className='app_navbar-name'>
           <img src={logo} alt='logo' width='150'/>
         </div>

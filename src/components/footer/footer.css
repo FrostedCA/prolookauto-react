@@ -6,3 +6,18 @@
 .footer-div span{
     color: red;
 }
+.footer-div button{
+    background-position: center;
+    color: transparent;
+    background-color: transparent;
+    border: none;
+    width: 48px;
+    height: 48px;
+    cursor: pointer;
+    filter: brightness(50%);
+    transition: 0.2s ease-in-out;
+    background-image: url('./img/icons8_scroll_up_48px.png');
+}
+.footer-div button:hover{
+    filter: brightness(100%);
+}

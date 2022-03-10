@@ -13,6 +13,7 @@ export default function Hero() {
         <a href='mailto:contact@prolookauto.com'><button className='email'>Email</button></a>
         <a href='#contact'><button className='tel'>Tel</button></a>
       </div>
+      <a href='#contact'><button className='contact'>Contact</button></a>
     </div>
   )
 }

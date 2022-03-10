@@ -6,7 +6,8 @@ export default function Footer() {
     <div className='container'>
         <div className='footer-div'>
             <h3>Droits réservé © Pro Look Auto</h3>
-            <h4>Site web développé par Tristan Landry</h4>
+            <a href='#navbar'><button>Test</button></a>
+            <h4>Site web développé par Tristan Landry et Charles-Antoine Gendron</h4>
         </div>
     </div>
   )

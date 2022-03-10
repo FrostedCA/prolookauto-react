@@ -36,7 +36,7 @@ export default function Services() {
                     <img src={Shampoo} alt='shampoing' />
                 </div>
                 <div className='after-div'>
-                    <p>Un shampoing spécialisé pour les tapis et les sièges de votre véhicule.</p>
+                    <p>Un shampoing spécialisé pour les tapis et les sièges de votre véhicule. Cela sera réalisé à l'aide d'un extracteur.</p>
                 </div>
             </div>
         </div>

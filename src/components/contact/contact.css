@@ -1,0 +1,34 @@
+.app_contact-content{
+    margin-top: 50px;
+    display: flex;
+    column-gap: 20px;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+}
+
+    @media only screen and (max-width: 800px){
+        .app_contact-content{
+            flex-direction: column;
+            row-gap: 20px;
+        }
+    }
+
+.app_contact-content .children{
+    padding: 30px;
+    background-color: var(--blue);
+    border-radius: 10px;
+    width: 300px;
+    height: 100px;
+    transition: 0.2s ease-in-out;
+    user-select: none;
+}
+.app_contact-content .children h1{
+    margin-bottom: 10px;
+}
+.app_contact-content .children p{
+    font-size: 18px;
+}
+.app_contact-content .children:hover{
+    transform: translateY(-10px);
+}

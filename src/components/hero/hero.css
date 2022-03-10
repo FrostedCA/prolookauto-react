@@ -1,0 +1,42 @@
+.app_hero-div{
+    position: relative;
+    margin-top: 15%;
+}
+.app_hero-div h1{
+    font-size: 100px;
+    color: white;
+}
+.app_hero-div p{
+    font-size: 30px;
+    font-weight: bold;
+}
+.app_hero-social button{
+    margin-inline: 10px;
+    background-position: center;
+    color: transparent;
+    background-color: transparent;
+    border: none;
+    width: 48px;
+    height: 48px;
+    cursor: pointer;
+    filter: brightness(50%);
+    transition: 0.2s ease-in-out;
+}
+.app_hero-social button:hover{
+    filter: brightness(100%);
+}
+.app_hero-social .facebook{
+    background-image: url('./img/icons8_facebook_48px.png');
+}
+.app_hero-social .email{
+    background-image: url('./img/icons8_mail_48px_1.png');
+}
+.app_hero-social .tel{
+    background-image: url('./img/icons8_phone_48px.png');
+}
+
+    @media only screen and (max-width: 800px){
+        .app_hero-div{
+            margin-top: 60%;
+        }
+    }

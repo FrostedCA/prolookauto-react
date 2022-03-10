@@ -1,0 +1,57 @@
+.app_navbar-div{
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    position: relative;
+}
+
+.app_navbar-links{
+    flex: 1;
+    list-style: none;
+    margin-left: 10%;
+}
+
+@media only screen and (max-width: 800px) {
+    .app_navbar-div{
+        flex-direction: column;
+    }
+    .app_navbar-links{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .app_navbar-links li{
+        display: block;
+    }
+}
+
+.app_navbar-links li{
+    margin: 0 1rem;
+    font-size: 25px;
+    display: inline-block;
+}
+.app_navbar-links li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.app_navbar-email{
+    color: white;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.app_navbar-name{
+    position: absolute;
+    margin-top: 150px;
+}
+
+    @media only screen and (max-width: 800px){
+        .app_navbar-links{
+            margin-left: 0%;
+            margin-bottom: 10px;
+        }
+    }

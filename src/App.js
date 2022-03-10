@@ -1,5 +1,4 @@
 import './style.css'
-import background from './img/background-car.jpg';
 
 import { Navbar, Contact, Hero, About, FindUs, Services, Footer } from './components'
 

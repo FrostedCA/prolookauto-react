@@ -21,6 +21,10 @@ export default function Contact() {
           <p>Étienne Mercier: <a href='tel:+14189312793'>(418) 931-2793</a></p>
           <p>Frédéric Gendron: <a href='tel:+14189051647'>(418) 905-1647</a></p>
         </div>
+        <div className='children'>
+          <h1>Instagram</h1>
+          <p>Vous pouvez visiter notre page <a target="_" href='https://www.instagram.com/prolookauto/?hl=fr'>Instagram</a> et en constater les résultats de notre travail</p>
+        </div>
       </div>
     </div>
   )

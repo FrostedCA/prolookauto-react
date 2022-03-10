@@ -34,6 +34,9 @@
 .app_hero-social .tel{
     background-image: url('./img/icons8_phone_48px.png');
 }
+.app_hero-social .instagram{
+    background-image: url('./img/icons8_Instagram_48px_1.png');
+}
 .contact{
     margin-inline: 10px;
     margin-top: 20px;

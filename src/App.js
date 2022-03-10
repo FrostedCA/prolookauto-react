@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
       <div className='header'>
-        <img className='app_background' src={background}/>
+        <img className='app_background' alt='background' src={background}/>
         <Navbar/>
         <Hero/>
       </div>

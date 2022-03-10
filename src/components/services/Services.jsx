@@ -15,7 +15,7 @@ export default function Services() {
             <div className='services'>
                 <div className='before-div'>
                     <h1>Remise à neuf</h1>
-                    <img src={RemiseNeuf} />
+                    <img src={RemiseNeuf} alt='remiseaneuf' />
                 </div>
                 <div className='after-div'>
                     <p>Nous offrons un service de remise à neuf. Votre auto aura un 'look' splendide!</p>
@@ -24,7 +24,7 @@ export default function Services() {
             <div className='services'>
                 <div className='before-div'>
                     <h1>Enduit céramique</h1>
-                    <img src={Protection} />
+                    <img src={Protection} alt='ceramique' />
                 </div>
                 <div className='after-div'>
                     <p>Un traitement céramique est une innovation technologique utilisée pour protéger la carrosserie d'un véhicule. La vraie céramique possède des propriétés exceptionnelles telles que la résistance à la chaleur, au froid, à l'abrasion, aux rayures, mais également aux produits chimiques.</p>
@@ -33,7 +33,7 @@ export default function Services() {
             <div className='services'>
                 <div className='before-div'>
                     <h1>Shampoing tapis et sièges</h1>
-                    <img src={Shampoo} />
+                    <img src={Shampoo} alt='shampoing' />
                 </div>
                 <div className='after-div'>
                     <p>Un shampoing spécialisé pour les tapis et les sièges de votre véhicule.</p>
@@ -44,7 +44,7 @@ export default function Services() {
             <div className='services'>
                 <div className='before-div'>
                     <h1>Décontamination</h1>
-                    <img src={Decontamination} />
+                    <img src={Decontamination} alt='decontamination' />
                 </div>
                 <div className='after-div'>
                     <p>Nous offrons un service de décontamination du véhicule. Toute sorte de contamination sera retiré.</p>
@@ -53,7 +53,7 @@ export default function Services() {
             <div className='services'>
                 <div className='before-div'>
                     <h1>Cire</h1>
-                    <img src={Cire} />
+                    <img src={Cire} alt='cire' />
                 </div>
                 <div className='after-div'>
                     <p>Le cirage régulier n'est pas seulement un avantage esthétique, il aide à protéger la peinture et le vernis de votre voiture en lui donnant plus de vie et en prévenant l'oxydation.</p>
@@ -62,7 +62,7 @@ export default function Services() {
             <div className='services'>
                 <div className='before-div'>
                     <h1>Polissage</h1>
-                    <img src={Polissage} />
+                    <img src={Polissage} alt='polissage' />
                 </div>
                 <div className='after-div'>
                     <p>Le polissage consiste à rénover intégralement la carrosserie de la voiture.</p>

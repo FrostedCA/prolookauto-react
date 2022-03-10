@@ -6,7 +6,7 @@ export default function Navbar() {
   return (
     <div className='app_navbar-div'>
         <div className='app_navbar-name'>
-          <img src={logo} width='150'/>
+          <img src={logo} alt='logo' width='150'/>
         </div>
         <ul className='app_navbar-links'>
             <li><a href='#contact'>Contact</a></li>

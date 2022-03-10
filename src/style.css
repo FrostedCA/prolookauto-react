@@ -5,6 +5,7 @@
     font-family: 'Roboto', sans-serif;
     text-align: center;
     color: white;
+    scroll-behavior: smooth;
 }
 :root{
     --blue: rgba(36, 57, 90, 0.8);

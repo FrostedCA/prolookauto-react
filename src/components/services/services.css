@@ -8,6 +8,7 @@
     list-style: none;
     column-gap: 20px;
     margin-top: 20px;
+    scroll-behavior: smooth;
 }
 .app_services-list .services{
     display: flex;
@@ -21,6 +22,7 @@
     flex-direction: column;
     user-select: none;
     transition: 0.5s ease-in-out;
+    scroll-behavior: smooth;
 }
 .app_services-list .services:hover{
     transform: translateY(-15px);
